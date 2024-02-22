@@ -1,21 +1,41 @@
+body{
+  background-color: rgba(153, 214, 254, 0.2);
+}
+
+h1{
+  font-size: 5rem;
+  color: white;
+  text-shadow: 3px 5px 3px #ffc1c8 ;
+}
+
 .square{
   height: 80px;
   width: 80px;
-  background-color: forestgreen;
+  background-color: #ffcece;
   color: white;
+  font-weight: bold;
   margin: 5px;
   text-align:center ;
   line-height: 80px;
+  cursor: pointer;
+  transition: 2s;
 }
 
+.square:hover{
+  border-radius: 20px;
+  border: 2px solid #fcaeb7 ;
+  box-shadow: 3px 3px 3px 1px gray;
+}
+
+
 .square.three{
-  background-color: darkorange;
+  background-color: #ffe3b0;
 }
 
 .square.five{
-  background-color: dodgerblue;
+  background-color: #8ed6ff;
 }
 
 .square.threefive{
-  background-color: deeppink;
+  background-color: #ffc1c8;
 }
