@@ -6,7 +6,6 @@
   margin: 5px;
   text-align:center ;
   line-height: 80px;
-  font-size: 1.5rem;
 }
 
 .square.three{
@@ -15,4 +14,8 @@
 
 .square.five{
   background-color: dodgerblue;
+}
+
+.square.threefive{
+  background-color: deeppink;
 }

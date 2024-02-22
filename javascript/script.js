@@ -3,7 +3,13 @@ const container = document.querySelector('.container')
 for (let i=1; i<=100; i++){
   console.log(i);
   
-  if (!(i % 3)){
+
+
+  if ((!(i % 3)) && (!(i % 5))){
+    container.innerHTML +=`
+    <div class="square threefive">${'FizzBuzz'}</div>
+    `
+  } else if (!(i % 3)){
     container.innerHTML +=`
     <div class="square three">${'Fizz'}</div>
     `
